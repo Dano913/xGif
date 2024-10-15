@@ -1,0 +1,47 @@
+.Gif {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-decoration: none;
+    padding: 0px;
+    height: 170px;
+    width: 210px;
+    align-items: center;
+    margin: 5px;
+    position: relative;
+    display: inline-block;
+
+}
+
+.Gif h6 {
+    margin: 0;
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    text-shadow: 3px 2px 2px rgb(0, 0, 0);
+    color: rgb(229, 255, 0);
+}
+
+.Gif img {
+    object-fit: cover;
+    width: 210px;
+    height: 170px;
+    border-radius: 10px;
+}
+
+i {
+    font-size: 40px;
+    width: 900px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: center;
+
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    place-content: center;
+    
+}
